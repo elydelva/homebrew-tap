@@ -33,8 +33,6 @@ jobs:
           cask: false
       - name: Validate generator
         run: ruby scripts/update-frame.test.rb
-      - name: Register checked-out tap
-        run: brew tap elydelva/tap "$GITHUB_WORKSPACE"
       - name: Validate formula syntax and style
         run: |
           ruby -c Formula/frame.rb
