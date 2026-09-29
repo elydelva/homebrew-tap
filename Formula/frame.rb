@@ -1,28 +1,28 @@
 class Frame < Formula
   desc "Decision-first project management CLI for Git repositories"
   homepage "https://github.com/elydelva/frame"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/elydelva/frame/releases/download/frame-v0.1.1/frame-0.1.1-darwin-arm64.tar.gz"
-      sha256 "64aeb8564aae6975c17558d8fb5a3baedad477914c8130ef84fb492a5217901f"
+      url "https://github.com/elydelva/frame/releases/download/frame-v0.1.2/frame-0.1.2-darwin-arm64.tar.gz"
+      sha256 "6f52aed493874c5a871934a3760d01ad69b3495cc421405a305fc9c1579cdf18"
     end
     on_intel do
-      url "https://github.com/elydelva/frame/releases/download/frame-v0.1.1/frame-0.1.1-darwin-x64.tar.gz"
-      sha256 "89d2e6485c971cbd3df02fc693b602778265ca1c1a045957d78b4ad1f14d0ef9"
+      url "https://github.com/elydelva/frame/releases/download/frame-v0.1.2/frame-0.1.2-darwin-x64.tar.gz"
+      sha256 "67a7ff7d8765b5f65b497d7515cb664026775dcdd3734da2329f47168b19c03c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/elydelva/frame/releases/download/frame-v0.1.1/frame-0.1.1-linux-arm64.tar.gz"
-      sha256 "3ef1155989153a435c286ca38b330c17fba60375253d6913a87a498ad15a6ac5"
+      url "https://github.com/elydelva/frame/releases/download/frame-v0.1.2/frame-0.1.2-linux-arm64.tar.gz"
+      sha256 "2a587a20f8fadb2cc92ee4d557ce1ca6443af26076bb9ffcfd5cd52811eff06b"
     end
     on_intel do
-      url "https://github.com/elydelva/frame/releases/download/frame-v0.1.1/frame-0.1.1-linux-x64.tar.gz"
-      sha256 "0462a4e3770ad7f2ec2386542b8cc3b2d38ce55ff99f940d059fc8a5962e57d7"
+      url "https://github.com/elydelva/frame/releases/download/frame-v0.1.2/frame-0.1.2-linux-x64.tar.gz"
+      sha256 "0a494cbadb418662541a7691fdae6ad00aed5d728569c5b5d0dffa6755618c0c"
     end
   end
 
